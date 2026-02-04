@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf4;
+    color: #4b2e1e;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #4b2e1e;
+}
+
+.btn-primary {
+    background: #c89b3c;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(255, 248, 235, 0.9), rgba(255, 248, 235, 0.9)),
+        url('assets/images/hero.jpg') center/cover;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.btn-secondary {
+    background: #4b2e1e;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* SECTION */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* PRODUK */
+.produk {
+    padding: 80px 0;
+}
+
+.produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.produk-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.produk-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.produk-card h3 {
+    margin: 15px 0 5px;
+}
+
+.produk-card p {
+    font-weight: 500;
+}
+
+.produk-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #c89b3c;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* CARA ORDER */
+.cara-order {
+    background: #fff3e0;
+    padding: 80px 0;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.step {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* KONTAK */
+.kontak {
+    padding: 80px 0;
+}
+
+.kontak-box {
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background: #4b2e1e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+}

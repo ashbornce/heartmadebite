@@ -12,6 +12,10 @@ body {
     line-height: 1.6;
 }
 
+a {
+    all: unset;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -174,11 +178,15 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-    .nav-menu {
-        display: none;
+    .logo {
+        font-size: 32px;
     }
 
     .hero h2 {
         font-size: 32px;
+    }
+
+    .btn-primary {
+        display: hidden;
     }
 }

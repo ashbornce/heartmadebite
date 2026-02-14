@@ -39,7 +39,7 @@ produk.forEach(item => {
       <img src="${item.gambar}" alt="${item.nama}">
       <h3>${item.nama}</h3>
       <p>${item.harga}</p>
-      <a href="https://wa.me/08884025682?text=Halo,%20saya%20ingin%20order%20${item.nama}" target="_blank">
+      <a href="https://wa.me/628884025682?text=Halo,%20saya%20ingin%20order%20${item.nama}" target="_blank">
         Pesan via WhatsApp
       </a>
     </div>

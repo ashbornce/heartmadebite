@@ -1,34 +1,34 @@
 const produk = [
     {
         nama: "Nastar Premium",
-        harga: "Rp 85.000 / toples",
-        gambar: "assets/images/nastar.jpg"
-    },
-    {
-        nama: "Kastengel Keju",
-        harga: "Rp 90.000 / toples",
-        gambar: "assets/images/kastengel.jpg"
+        harga: ["Rp38.000 / toples 600ml ", "Rp48.000 / toples 800ml ", "Rp63.000 / toples 100ml "],
+        gambar: "assets/image/nastar.webp"
     },
     {
         nama: "Putri Salju",
-        harga: "Rp 80.000 / toples",
-        gambar: "assets/images/putri-salju.jpg"
+        harga: ["Rp30.000 / toples 600ml ", "Rp35.000 / toples 800ml ", "Rp47.000 / toples 100ml "],
+        gambar: "assets/image/putriSalju1.webp"
     },
     {
-        nama: "Lidah Kucing",
-        harga: "Rp 75.000 / toples",
-        gambar: "assets/images/lidah-kucing.jpg"
+        nama: "Kastengel",
+        harga: ["Rp36.000 / toples 600ml ", "Rp53.000 / toples 800ml ",],
+        gambar: "assets/image/kastengel1.webp"
     },
     {
-        nama: "Cookies Coklat",
-        harga: "Rp 70.000 / toples",
-        gambar: "assets/images/cookies-coklat.jpg"
+        nama: "Palm Cheese",
+        harga: ["Rp35.000 / toples 600ml ", "Rp44.000 / toples 800ml ", "Rp59.000 / toples 100ml "],
+        gambar: "assets/image/palmCheese1.webp"
     },
     {
-        nama: "Sagu Keju",
-        harga: "Rp 85.000 / toples",
-        gambar: "assets/images/sagu-keju.jpg"
-    }
+        nama: "Putri Salju Milo",
+        harga: ["Rp33.000 / toples 600ml ", "Rp41.500 / toples 800ml ", "Rp55.000 / toples 100ml "],
+        gambar: "assets/image/palmCheese1.webp"
+    },
+    {
+        nama: "Mini Kukis",
+        harga: ["Rp30.000 / toples 600ml ", "Rp46.000 / toples 800ml ",],
+        gambar: "assets/image/kuki1.webp"
+    },
 ];
 
 const produkList = document.getElementById("produk-list");
@@ -39,7 +39,7 @@ produk.forEach(item => {
       <img src="${item.gambar}" alt="${item.nama}">
       <h3>${item.nama}</h3>
       <p>${item.harga}</p>
-      <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20order%20${item.nama}" target="_blank">
+      <a href="https://wa.me/08884025682?text=Halo,%20saya%20ingin%20order%20${item.nama}" target="_blank">
         Pesan via WhatsApp
       </a>
     </div>

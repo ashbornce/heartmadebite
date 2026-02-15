@@ -52,6 +52,7 @@ a {
 .nav-menu a {
     text-decoration: none;
     color: #4b2e1e;
+    font-weight: 300;
 }
 
 .btn-primary {
@@ -219,4 +220,5 @@ a {
     }
 
 }
+
 

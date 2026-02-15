@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 body {
@@ -52,7 +53,7 @@ a {
 .nav-menu a {
     text-decoration: none;
     color: #4b2e1e;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .btn-primary {
@@ -220,6 +221,7 @@ a {
     }
 
 }
+
 
 
 

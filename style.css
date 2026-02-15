@@ -40,6 +40,7 @@ a {
 
 .logo {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .nav-menu {
@@ -73,10 +74,11 @@ a {
 }
 
 .hero h1{
-        font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 42px;
-
+    font-weight: 800;
 }
+
 .hero h2 {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
@@ -217,3 +219,4 @@ a {
     }
 
 }
+

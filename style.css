@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
-body {
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; /* hanya sembunyikan yang melebar ke samping */
     font-family: 'Montserrat', sans-serif;
     background-color: #fffaf4;
     color: #4b2e1e;
@@ -221,6 +224,7 @@ a {
     }
 
 }
+
 
 
 

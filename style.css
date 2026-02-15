@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fffaf4;
     color: #4b2e1e;
     line-height: 1.6;
@@ -39,7 +39,7 @@ a {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-menu {
@@ -72,9 +72,14 @@ a {
     max-width: 600px;
 }
 
+.hero h1{
+        font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+
+}
 .hero h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .hero p {
@@ -210,4 +215,5 @@ a {
     .btn-primary {
         display: hidden;
     }
+
 }

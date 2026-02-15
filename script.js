@@ -1,6 +1,6 @@
 const produk = [
     {
-        nama: "Nastar Premium",
+        nama: "Nastar",
         harga: ["Rp38.000 / toples 600ml ", "Rp48.000 / toples 800ml ", "Rp63.000 / toples 100ml "],
         gambar: "assets/image/nastar.webp"
     },
@@ -45,3 +45,4 @@ produk.forEach(item => {
     </div>
   `;
 });
+
